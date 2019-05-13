@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			// Visual Studio Code IDE settings
+			"name": "vscode",
+			"path": "."
+		},
+		{
+			// NordicPlayground/fw-nrfconnect-zephyr
+			"name": "zephyr",
+			"path": "../zephyr"
+		},
+		{
+			// NordicPlayground/fw-nrfconnect-nrf
+			"name": "nrf",
+			"path": "../nrf"
+		}
+	],
+	"settings": {
+		"cmake.configureOnOpen": true,
+		"editor.defaultFormatter": "xaver.clang-format",
+		"clang-format.executable": "clang-format-8",
+		"C_Cpp.clang_format_style": "file",
+		"C_Cpp.clang_format_fallbackStyle": "none"
+	},
+	"extensions": {
+		"recommendations": [
+			"xaver.clang-format",
+			"ms-vscode.cpptools",
+			"vector-of-bool.cmake-tools"
+		]
+	}
+}

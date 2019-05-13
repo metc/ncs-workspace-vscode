@@ -1,0 +1,14 @@
+{
+	"nrf public lic": {
+		"prefix": "nrfbsd5",
+		"body": [
+			"/*",
+			" * Copyright (c) $CURRENT_YEAR Nordic Semiconductor ASA",
+			" *",
+			" * SPDX-License-Identifier: LicenseRef-BSD-5-Clause-Nordic",
+			" */",
+			"$0"
+		],
+		"description": "Insert public BSD-5-Clause-Nordic licence text"
+	}
+}
